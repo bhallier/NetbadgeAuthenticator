@@ -21,10 +21,10 @@ public class AuthenticationDriver {
 		// Use the credentials to authenticate
 		result = authenticator.Authenticate(username, password);
 
+		//Output result
 		if (result == true)
 			System.out.println("Authentication Complete.");
 		else
 			System.out.println("Authentication Failed.");
-
 	}
 }
